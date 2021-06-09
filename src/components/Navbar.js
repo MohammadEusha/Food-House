@@ -7,8 +7,8 @@ const Navbar = ({ toggle }) => {
       className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono'
       role='navigation'
     >
-      <Link to='/' className='pl-8'>
-        EGG
+      <Link to='/' className=' text-3xl pl-8'>
+        Food House
       </Link>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg
@@ -27,16 +27,16 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
       <div className='pr-8 md:block  hidden'>
-        <Link to='/' className='p-4'>
+        <Link to='/' className='text-3xl p-4'>
           Home
         </Link>
-        <Link to='/menu' className='p-4'>
+        <Link to='/menu' className='text-3xl p-4'>
           Menu
         </Link>
-        <Link to='/about' className='p-4'>
+        <Link to='/about' className='text-3xl p-4'>
           About
         </Link>
-        <Link to='/contact' className='p-4'>
+        <Link to='/contact' className='text-3xl p-4'>
           Contact
         </Link>
       </div>
